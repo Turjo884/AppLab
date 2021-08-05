@@ -287,3 +287,141 @@ ol, ul {
     background: #4c2efb;
 }
 /* End Ultimate Section */
+
+/* Start Get Section */
+.get{
+    padding: 75px 0px;
+}
+.get h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #242f51;
+    line-height: 55px;
+    padding: 0 240px;
+    text-align: center;
+}
+.get p{
+    font-size: 15px;
+    color: #616368;
+    line-height: 30px;
+    padding: 0 245px;
+    margin: 20px 0 70px;
+    text-align: center;
+}
+.get-btn-group{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.get-btn{
+    background: #2500f9;
+    color: #fff!important;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-right: 10px;
+    transition: .5s ease-in-out;
+}
+.get-btn:hover{
+    background: #fff;
+    color: #616368!important;
+    border: 1px solid #616368;
+}
+.outside-btn{
+    background: #fff;
+    color: #616368!important;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 1px solid #616368;
+    transition: .5s ease-in-out;
+}
+.outside-btn:hover{
+    background: #2500f9;
+    color: #fff!important;
+}
+.whole-card{
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+}
+.whole-card:hover{
+    box-shadow: 5px 10px 0px #eef1f3;
+}
+.whole-card .card-head{
+    background: #f4f7f9;
+    padding: 50px 20px 30px;
+}
+.whole-card .card-head h3{
+    text-align: center;
+    color: #242f51;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.card-head h3 span{
+    font-size: 12px;
+    color: #616368;
+}
+.whole-card .card-head h4{
+    text-align: center;
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.whole-card .card-head p{
+    padding: 0;
+    margin: 0;
+}
+.whole-card .card-body ul li{
+    text-align: center;
+    line-height: 50px;
+    color: #999ca5;
+}
+.card-body .card-btn{
+    display: block;
+    width: 205px;
+    margin: 0 auto;
+    text-align: center;
+    background: #2500f9;
+    color: #fff!important;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: .5s ease-in-out;
+}
+/* End Get Section */
+
+/* Start Testimonial Section */
+.testimonial{
+    padding: 75px 0;
+}
+.testimonial h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #242f51;
+    line-height: 55px;
+}
+.testimonial p{
+    font-size: 15px;
+    color: #616368;
+    line-height: 30px;
+    padding: 0;
+    margin: 20px 0 30px;
+}
+.testimonial h5{
+    font-weight: 600;
+    color: #242f51;
+    margin-top: 30px;
+}
+.testimonial h6{
+    color: #242f51;
+    font-weight: 500;
+    margin: 22px 0 0 0;
+}
+.testimonial .client-text{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+/* End Testimonial Section */
