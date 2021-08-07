@@ -578,12 +578,12 @@ footer .footer-pra{
     .choose {padding: 50px 0px;}
     .choose h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
     .choose p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
-    .design .design-btn {width: 142px;display: block;text-align: center;margin: 0 auto;font-size: 15px;}
+    .design .design-btn {width: 142px;display: block;text-align: center;margin: 0 auto;font-size: 13px;}
     .ultimate h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
     .ultimate p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
     .ultimate img{display: block;margin: 0 auto;}
     .ultimate .ultimate-item h6 {text-align: center;}
-    .ultimate .ultimate-btn {width: 142px;display: block;text-align: center;margin: 0 auto 20px;font-size: 15px;}
+    .ultimate .ultimate-btn {width: 142px;display: block;text-align: center;margin: 0 auto 20px;font-size: 13px;}
     .get h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
     .get p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
     .whole-card {margin-bottom: 31px;}
@@ -598,10 +598,10 @@ footer .footer-pra{
     .question p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
     .question .extra-sec {padding: 25px;}
     .list-items ul li {font-size: 14px;padding:15px 25px;}
-    .list-items .first {padding-left: 30px;}
-    .list-items .second {padding-left: 147px;}
-    .list-items .third {padding-left: 187px;}
-    .list-items .fourth {padding-left: 142px;}
+    .list-items .first {padding-left: 141px;}
+    .list-items .second {padding-left: 220px;}
+    .list-items .third {padding-left: 32px;}
+    .list-items .fourth {padding-left: 11px;}
     .download {padding: 0px;}
     .download h2 {font-size: 27.5px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 40px 5px;}
     .download p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center}
