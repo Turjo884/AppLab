@@ -598,14 +598,15 @@ footer .footer-pra{
     .question p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
     .question .extra-sec {padding: 25px;}
     .list-items ul li {font-size: 14px;padding:15px 25px;}
-    .list-items .first {padding-left: 141px;}
-    .list-items .second {padding-left: 220px;}
-    .list-items .third {padding-left: 32px;}
-    .list-items .fourth {padding-left: 11px;}
+    .list-items .first {display:none;}
+    .list-items .second {display:none;}
+    .list-items .third {display:none;}
+    .list-items .fourth {display:none;}
     .download {padding: 0px;}
     .download h2 {font-size: 27.5px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 40px 5px;}
     .download p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center}
     .download img{margin-bottom: 15px;}
     footer ul li {padding: 5px;}
+    footer .footer-pra {padding: 0 30px;}
 }
 /* End Media Quires For Mobile Device */
