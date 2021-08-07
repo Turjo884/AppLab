@@ -550,6 +550,66 @@ footer .footer-pra{
 /* End Footer Section */
 
 
+/* Start Media Quires For Tablet Device */
+@media (min-width: 576px) and (max-width: 768px){
+    .navbar-light .navbar-nav .nav-link {padding: 5px 0;}
+    .free-btn {margin-left: 0px;}
+    .cube-btn{margin-top: 20px;}
+    .header-body h1{font-size: 35px;padding-right: 100px;}
+    .header-body p{font-size: 15px;padding: 0px 220px 0 0;}
+    .header-body .fancy-link {padding-left: 10px;display: inline;margin: 0;}
+    .trusted p {font-size: 15px;margin-bottom: 25px;}
+    .trusted-logo{text-align: center;}
+    .trusted-logo img{padding: 20px 0;}
+    .feature h2 {text-align:center;font-size: 35px;line-height: 40px;}
+    .feature p {font-size: 15px;line-height: 25px;text-align: center;}
+    .feature .img-div img{display:block;margin: 0 auto;}
+    .feature-item .feature-text h5 {text-align: center;margin-top: 15px;}
+    .feature-item .feature-text p {font-size: 15px;padding: 0 135px;}
+    .jackpot {padding: 50px 0px;}
+    .jackpot h2 {font-size: 35px;line-height: 40px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
+    .jackpot p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
+    .jackpot-item img{display: block;margin: 0 auto;}
+    .jackpot-item h5 {text-align: center;}
+    .design{padding: 50px 0;}
+    .design h2 {text-align:center;font-size: 35px;line-height: 40px;}
+    .design p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
+    .design .design-btn {width: 142px;display: block;text-align: center;margin: 0 auto;font-size: 15px;}
+    .choose {padding: 50px 0px;}
+    .choose h2 {text-align:center;font-size: 35px;line-height: 40px;padding:0;}
+    .choose p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
+    .choose .item-para {font-size: 15px;padding: 0 135px;}
+    .ultimate h2 {text-align:center;font-size: 35px;line-height: 40px;padding:0;}
+    .ultimate p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
+    .ultimate img{display: block;margin: 0 auto;}
+    .ultimate .ultimate-item p {font-size: 15px;padding: 5px 135px 50px;}
+    .ultimate .ultimate-item h6 {text-align: center;}
+    .ultimate .ultimate-btn {width: 142px;display: block;text-align: center;margin: 0 auto 20px;font-size: 15px;}
+    .get {padding: 50px 0px;}
+    .get h2 {text-align:center;font-size: 35px;line-height: 40px;padding:0;}
+    .get p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
+    .whole-card {margin-bottom: 31px;}
+    .testimonial h2 {text-align:center;font-size: 35px;line-height: 40px;padding-top:50px;}
+    .testimonial p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
+    .testimonial img{display: block;margin: 0 auto;}
+    .testimonial h5 {text-align: center;}
+    .testimonial h6 {text-align: center;}
+    .question {padding: 50px 0;}
+    .question h2 {text-align:center;font-size: 35px;line-height: 40px;padding-top:50px;}
+    .question p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
+    .list-items .first {padding-left: 107px;}
+    .list-items .second {padding-left: 206px;}
+    .list-items .third {padding-left: 289px;}
+    .list-items .fourth {padding-left: 264px;}
+    .download {padding: 50px 0 0;}
+    .download h2 {text-align:center;font-size: 35px;line-height: 40px;padding-top:50px;}
+    .download p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
+    .download img{margin-bottom: 15px;}
+    .download .download-cycle{margin-bottom: 0px;}
+}
+/* End Media Quires For Tablet Device */
+
+
 /* Start Media Quires For Mobile Device */
 @media (min-width: 320px) and (max-width: 576px){
     .navbar-light .navbar-nav .nav-link {padding: 5px 0;}
@@ -575,19 +635,19 @@ footer .footer-pra{
     .jackpot-item h5 {text-align: center;}
     .design h2 {text-align:center;font-size: 28px;line-height: 33px;padding: 0;}
     .design p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align:center;}
+    .design .design-btn {width: 142px;display: block;text-align: center;margin: 0 auto;font-size: 15px;}
     .choose {padding: 50px 0px;}
     .choose h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
     .choose p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
-    .design .design-btn {width: 142px;display: block;text-align: center;margin: 0 auto;font-size: 15px;}
     .ultimate h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
     .ultimate p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
     .ultimate img{display: block;margin: 0 auto;}
     .ultimate .ultimate-item h6 {text-align: center;}
     .ultimate .ultimate-btn {width: 142px;display: block;text-align: center;margin: 0 auto 20px;font-size: 15px;}
+    .get {padding: 50px 0px;}
     .get h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
     .get p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
     .whole-card {margin-bottom: 31px;}
-    .get {padding: 50px 0px;}
     .testimonial h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 40px 5px 22px;}
     .testimonial p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
     .testimonial img{display: block;margin: 0 auto;}
@@ -606,6 +666,7 @@ footer .footer-pra{
     .download h2 {font-size: 27px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 40px 5px;}
     .download p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center}
     .download img{margin-bottom: 15px;}
+    .download .download-cycle{margin-bottom: 0px;}
     footer ul li {padding: 5px;}
     footer .footer-pra {padding: 0 30px;}
 }
