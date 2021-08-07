@@ -562,7 +562,7 @@ footer .footer-pra{
     .trusted-logo{text-align: center;}
     .trusted-logo img{padding: 20px 0;}
     .feature h2 {text-align:center;font-size: 35px;line-height: 40px;}
-    .feature p {font-size: 15px;line-height: 25px;text-align: center;}
+    .feature p {font-size: 15px;line-height: 25px;text-align: center;padding: 0 100px;}
     .feature .img-div img{display:block;margin: 0 auto;}
     .feature-item .feature-text h5 {text-align: center;margin-top: 15px;}
     .feature-item .feature-text p {font-size: 15px;padding: 0 135px;}
@@ -589,7 +589,7 @@ footer .footer-pra{
     .get h2 {text-align:center;font-size: 35px;line-height: 40px;padding:0;}
     .get p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
     .whole-card {margin-bottom: 31px;}
-    .testimonial h2 {text-align:center;font-size: 35px;line-height: 40px;padding-top:50px;}
+    .testimonial h2 {text-align:center;font-size: 35px;line-height: 40px;padding-top:90px;}
     .testimonial p {font-size: 15px;line-height: 25px;padding: 10px 135px;text-align: center;}
     .testimonial img{display: block;margin: 0 auto;}
     .testimonial h5 {text-align: center;}
