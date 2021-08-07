@@ -603,7 +603,7 @@ footer .footer-pra{
     .list-items .third {display:none;}
     .list-items .fourth {display:none;}
     .download {padding: 0px;}
-    .download h2 {font-size: 27.5px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 40px 5px;}
+    .download h2 {font-size: 27px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 40px 5px;}
     .download p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center}
     .download img{margin-bottom: 15px;}
     footer ul li {padding: 5px;}
