@@ -46,7 +46,7 @@ header{
 /* Start Header Body */
 .header-body{
     background: url(../img/header-bg.png) top center no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding: 250px 0px;
 }
 .header-body h1{
@@ -186,6 +186,7 @@ ol, ul {
     color: #242f51;
     line-height: 55px;
     padding: 0 80px 0 25px;
+    margin-top: 60px;
 }
 .design p{
     font-size: 15px;
@@ -396,6 +397,9 @@ ol, ul {
 .testimonial{
     padding: 75px 0;
 }
+.mt-5 {
+    margin-top: 6rem!important;
+}
 .testimonial h2{
     font-size: 40px;
     font-weight: 500;
@@ -451,9 +455,8 @@ ol, ul {
 }
 .question h6{
     color: #242f51;
-    font-weight: 500;
-    text-align: center;
-    padding-right: 550px;
+    font-weight: 600;
+    text-align: left;
     margin-bottom: 20px;
 }
 .extra-sec .extra-pra{
@@ -466,7 +469,7 @@ ol, ul {
     background: #f5f7fa;
     margin-top: 10px;
     color: #242f51;
-    font-weight: 600;
+    font-weight: 500;
 }
 .list-items .first{
     padding-left: 510px;
@@ -490,7 +493,6 @@ ol, ul {
     font-size: 40px;
     font-weight: 500;
     color: #242f51;
-    padding-left: 20px;
 }
 .download p{
     font-size: 15px;
@@ -546,3 +548,64 @@ footer .footer-pra{
     margin-top: 70px;
 }
 /* End Footer Section */
+
+
+/* Start Media Quires For Mobile Device */
+@media (min-width: 320px) and (max-width: 576px){
+    .navbar-light .navbar-nav .nav-link {padding: 5px 0;}
+    .free-btn {margin-left: 0px;}
+    .cube-btn{margin-top: 20px;}
+    /* .header-body{background-size: cover;} */
+    .header-body h1{font-size: 30px;}
+    .header-body p{font-size: 14px;padding: 0px 30px 0 0;}
+    .header-body .fancy-link {padding-left: 0px;display: block;margin: 30px auto;}
+    .trusted {padding: 50px 0;}
+    .trusted p {font-size: 14px;margin-bottom: 25px;}
+    .trusted-logo{text-align: center;}
+    .trusted-logo img{padding: 20px 0;}
+    .feature h2 {text-align:center;font-size: 28px;line-height: 33px;}
+    .feature p {font-size: 14px;line-height: 25px;text-align: center;}
+    .feature .img-div img{display:block;margin: 0 auto;}
+    .feature-item .feature-text h5 {text-align: center;margin-top: 15px;}
+    .feature-item .feature-text p {font-size: 14px;padding: 0 20px;}
+    .jackpot {padding: 50px 0px;}
+    .jackpot h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
+    .jackpot p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
+    .jackpot-item img{display: block;margin: 0 auto;}
+    .jackpot-item h5 {text-align: center;}
+    .design h2 {text-align:center;font-size: 28px;line-height: 33px;padding: 0;}
+    .design p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align:center;}
+    .choose {padding: 50px 0px;}
+    .choose h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
+    .choose p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
+    .design .design-btn {width: 142px;display: block;text-align: center;margin: 0 auto;font-size: 15px;}
+    .ultimate h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
+    .ultimate p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
+    .ultimate img{display: block;margin: 0 auto;}
+    .ultimate .ultimate-item h6 {text-align: center;}
+    .ultimate .ultimate-btn {width: 142px;display: block;text-align: center;margin: 0 auto 20px;font-size: 15px;}
+    .get h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 22px 5px;}
+    .get p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
+    .whole-card {margin-bottom: 31px;}
+    .get {padding: 50px 0px;}
+    .testimonial h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 40px 5px 22px;}
+    .testimonial p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
+    .testimonial img{display: block;margin: 0 auto;}
+    .testimonial h5 {text-align: center;}
+    .testimonial h6 {text-align: center;}
+    .question {padding: 50px 0;}
+    .question h2 {font-size: 28px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 40px 5px;}
+    .question p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center;}
+    .question .extra-sec {padding: 25px;}
+    .list-items ul li {font-size: 14px;padding:15px 25px;}
+    .list-items .first {padding-left: 30px;}
+    .list-items .second {padding-left: 147px;}
+    .list-items .third {padding-left: 187px;}
+    .list-items .fourth {padding-left: 142px;}
+    .download {padding: 0px;}
+    .download h2 {font-size: 27.5px;line-height: 33px;text-align:center;border-bottom: 2px solid #b9b9b8;border-right: 0;padding: 40px 5px;}
+    .download p {font-size: 14px;line-height: 25px;padding: 10px 15px;text-align: center}
+    .download img{margin-bottom: 15px;}
+    footer ul li {padding: 5px;}
+}
+/* End Media Quires For Mobile Device */
