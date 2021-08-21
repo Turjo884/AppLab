@@ -615,9 +615,9 @@ footer .footer-pra{
     .navbar-light .navbar-nav .nav-link {padding: 5px 0;}
     .free-btn {margin-left: 0px;}
     .cube-btn{margin-top: 20px;}
-    /* .header-body{background-size: cover;} */
-    .header-body h1{font-size: 30px;}
-    .header-body p{font-size: 14px;padding: 0px 30px 0 0;}
+    .header-body {padding: 0px;}
+    .header-body h1{font-size: 30px;padding-right: 100px;}
+    .header-body p{font-size: 14px;padding: 0px 134px 0 0;}
     .header-body .fancy-link {padding-left: 0px;display: block;margin: 30px auto;}
     .trusted {padding: 50px 0;}
     .trusted p {font-size: 14px;margin-bottom: 25px;}
